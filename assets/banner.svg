@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Тихая японская деревня в утренней дымке: черепичные крыши, рисовые поля, горы">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a7bac9"/>
+      <stop offset="0.34" stop-color="#bcc9d1"/>
+      <stop offset="0.60" stop-color="#d8d9d2"/>
+      <stop offset="0.80" stop-color="#e9ddca"/>
+      <stop offset="1" stop-color="#f4e6cf"/>
+    </linearGradient>
+    <linearGradient id="paddy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfd8d3"/>
+      <stop offset="0.45" stop-color="#bcc9c3"/>
+      <stop offset="1" stop-color="#a3b3ac"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#fdf5e1" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#fdf5e1" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fdf5e1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haze" cx="50%" cy="66%" r="72%">
+      <stop offset="0" stop-color="#f8f1e3" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#f6efe2" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#f4ecdd" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- дом с черепичной крышей -->
+    <g id="house">
+      <rect x="8" y="-64" width="164" height="64" fill="#ded4c1"/>
+      <rect x="8" y="-10" width="164" height="10" fill="#aeaaa0"/>
+      <rect x="-26" y="-68" width="232" height="7" fill="#3f4a56"/>
+      <path d="M-26 -68 L90 -110 L206 -68 Z" fill="#4c5766"/>
+      <rect x="34" y="-48" width="34" height="24" fill="#8d8a7d" opacity="0.45"/>
+      <rect x="86" y="-48" width="34" height="24" fill="#8d8a7d" opacity="0.45"/>
+      <rect x="138" y="-48" width="26" height="24" fill="#8d8a7d" opacity="0.45"/>
+    </g>
+
+    <!-- дом с тёплым окном -->
+    <g id="house-lit">
+      <rect x="8" y="-64" width="164" height="64" fill="#ded4c1"/>
+      <rect x="8" y="-10" width="164" height="10" fill="#aeaaa0"/>
+      <rect x="-26" y="-68" width="232" height="7" fill="#3f4a56"/>
+      <path d="M-26 -68 L90 -110 L206 -68 Z" fill="#4c5766"/>
+      <rect x="34" y="-48" width="34" height="24" fill="#8d8a7d" opacity="0.4"/>
+      <rect x="86" y="-48" width="34" height="24" fill="#e3bd8b" opacity="0.85"/>
+      <rect x="138" y="-48" width="26" height="24" fill="#8d8a7d" opacity="0.4"/>
+    </g>
+
+    <!-- сарай -->
+    <g id="barn">
+      <rect x="0" y="-46" width="96" height="46" fill="#d3c9b6"/>
+      <path d="M-16 -46 L48 -82 L112 -46 Z" fill="#4c5766"/>
+      <rect x="30" y="-32" width="36" height="32" fill="#a9a49a"/>
+    </g>
+
+    <!-- дерево -->
+    <g id="tree">
+      <rect x="-4" y="-34" width="8" height="34" fill="#5b655f"/>
+      <ellipse cx="-26" cy="-38" rx="30" ry="20" fill="#66765f"/>
+      <ellipse cx="26" cy="-40" rx="28" ry="19" fill="#788871"/>
+      <ellipse cx="0" cy="-52" rx="44" ry="30" fill="#6f7f6c"/>
+    </g>
+
+    <!-- столб с проводами -->
+    <g id="pole">
+      <rect x="-3" y="-150" width="6" height="150" fill="#5a6570" opacity="0.85"/>
+      <rect x="-22" y="-136" width="44" height="4" fill="#5a6570" opacity="0.85"/>
+      <rect x="-18" y="-120" width="36" height="3" fill="#5a6570" opacity="0.8"/>
+    </g>
+
+    <!-- сосна -->
+    <g id="pine">
+      <path d="M0 -46 L11 -20 L-11 -20 Z"/>
+      <path d="M0 -70 L14 -34 L-14 -34 Z"/>
+      <path d="M0 -96 L16 -48 L-16 -48 Z"/>
+    </g>
+  </defs>
+
+  <!-- небо -->
+  <rect width="1920" height="740" fill="url(#sky)"/>
+
+  <!-- утреннее солнце -->
+  <circle cx="1380" cy="258" r="330" fill="url(#halo)"/>
+  <circle cx="1380" cy="258" r="76" fill="#fbf1da" opacity="0.85"/>
+
+  <!-- облака -->
+  <ellipse cx="420" cy="140" rx="320" ry="20" fill="#fbf8f1" opacity="0.45"/>
+  <ellipse cx="700" cy="190" rx="210" ry="13" fill="#fbf8f1" opacity="0.32"/>
+  <ellipse cx="1450" cy="168" rx="290" ry="18" fill="#fbf8f1" opacity="0.40"/>
+  <ellipse cx="1150" cy="236" rx="240" ry="12" fill="#fbf8f1" opacity="0.26"/>
+  <ellipse cx="250" cy="300" rx="280" ry="11" fill="#b9c4cf" opacity="0.18"/>
+  <ellipse cx="1650" cy="322" rx="240" ry="10" fill="#b9c4cf" opacity="0.14"/>
+
+  <!-- птицы -->
+  <g fill="none" stroke="#6b7684" stroke-width="3" stroke-linecap="round" opacity="0.45">
+    <path d="M812 300q13-12 26 0q13-12 26 0"/>
+    <path d="M910 268q10-9 20 0q10-9 20 0"/>
+    <path d="M1010 316q8-8 16 0q8-8 16 0"/>
+  </g>
+
+  <!-- дальние горы -->
+  <path d="M0 740 L150 560 L280 640 L420 500 L560 620 L700 540 L860 460 L1000 600 L1140 520 L1300 600 L1420 500 L1560 620 L1700 560 L1830 640 L1920 580 L1920 740 Z" fill="#b6c3cd"/>
+  <ellipse cx="960" cy="640" rx="1050" ry="36" fill="#f1f2ec" opacity="0.5"/>
+
+  <!-- средний хребет -->
+  <path d="M0 740 L180 620 L340 680 L520 590 L700 670 L880 610 L1060 680 L1240 610 L1420 680 L1600 620 L1780 680 L1920 630 L1920 740 Z" fill="#a1b1be"/>
+  <use href="#pine" fill="#8fa0ae" opacity="0.75" transform="translate(430 664) scale(0.5)"/>
+  <use href="#pine" fill="#8fa0ae" opacity="0.7" transform="translate(470 670) scale(0.42)"/>
+  <use href="#pine" fill="#8fa0ae" opacity="0.7" transform="translate(1180 652) scale(0.46)"/>
+  <ellipse cx="900" cy="694" rx="1100" ry="28" fill="#f3f4ee" opacity="0.5"/>
+
+  <!-- ближний лесной склон -->
+  <path d="M0 740 Q260 654 520 704 Q760 744 1000 702 Q1260 658 1520 708 Q1740 748 1920 700 L1920 740 Z" fill="#8898a8"/>
+  <g fill="#5f7280">
+    <ellipse cx="150" cy="716" rx="90" ry="26"/>
+    <ellipse cx="330" cy="726" rx="70" ry="20" opacity="0.9"/>
+    <ellipse cx="1240" cy="722" rx="86" ry="24" opacity="0.9"/>
+    <ellipse cx="1700" cy="730" rx="110" ry="24" opacity="0.9"/>
+  </g>
+  <ellipse cx="1100" cy="728" rx="1150" ry="20" fill="#f5f5ef" opacity="0.45"/>
+
+  <!-- деревня -->
+  <g>
+    <use href="#house" transform="translate(600 742) scale(0.92)"/>
+    <use href="#barn" transform="translate(806 742) scale(0.9)"/>
+    <use href="#house-lit" transform="translate(930 748) scale(0.86)"/>
+    <use href="#house" transform="translate(1120 744) scale(0.78)"/>
+    <use href="#tree" transform="translate(1078 744) scale(0.92)"/>
+    <use href="#house" transform="translate(1240 750) scale(0.66)"/>
+    <use href="#house-lit" transform="translate(1330 740) scale(0.98)"/>
+    <use href="#barn" transform="translate(1524 744) scale(0.72)"/>
+    <use href="#tree" transform="translate(1604 744) scale(1.08)"/>
+    <use href="#house" transform="translate(1660 738) scale(0.7)"/>
+    <use href="#tree" transform="translate(470 742) scale(1.15)"/>
+    <use href="#tree" transform="translate(1790 748) scale(0.9)"/>
+    <g fill="#77887c" opacity="0.75">
+      <ellipse cx="700" cy="734" rx="42" ry="14"/>
+      <ellipse cx="1000" cy="738" rx="36" ry="12"/>
+      <ellipse cx="1460" cy="736" rx="40" ry="13"/>
+    </g>
+  </g>
+
+  <!-- столбы и провода -->
+  <use href="#pole" transform="translate(700 744)"/>
+  <use href="#pole" transform="translate(960 748)"/>
+  <use href="#pole" transform="translate(1240 744)"/>
+  <g fill="none" stroke="#6a7480" stroke-width="1.8" opacity="0.5">
+    <path d="M700 608 Q830 626 960 612"/>
+    <path d="M960 612 Q1100 632 1240 608"/>
+    <path d="M700 622 Q830 640 960 626"/>
+    <path d="M960 626 Q1100 646 1240 622"/>
+  </g>
+
+  <!-- рисовые поля -->
+  <rect x="0" y="740" width="1920" height="340" fill="url(#paddy)"/>
+  <rect x="0" y="740" width="1920" height="5" fill="#8e8a76" opacity="0.55"/>
+
+  <!-- отражения в воде -->
+  <g opacity="0.32" fill="#eef0e8">
+    <rect x="0" y="746" width="1920" height="34"/>
+    <rect x="0" y="792" width="1920" height="14" opacity="0.7"/>
+    <rect x="0" y="824" width="1920" height="9" opacity="0.5"/>
+  </g>
+  <g fill="#8e9aa2" opacity="0.22">
+    <rect x="1180" y="748" width="150" height="26"/>
+    <rect x="600" y="750" width="120" height="22"/>
+  </g>
+
+  <!-- гряды и ряды риса -->
+  <rect x="0" y="858" width="1920" height="4" fill="#8e8a76" opacity="0.42"/>
+  <rect x="0" y="932" width="1920" height="4" fill="#8e8a76" opacity="0.34"/>
+  <rect x="0" y="1012" width="1920" height="5" fill="#8e8a76" opacity="0.28"/>
+  <g opacity="0.4">
+    <path d="M0 806 H1920" stroke="#9fb2a4" stroke-width="22" stroke-dasharray="4 11" fill="none"/>
+    <path d="M0 850 H1920" stroke="#9fb2a4" stroke-width="20" stroke-dasharray="4 12" fill="none" opacity="0.85"/>
+    <path d="M0 898 H1920" stroke="#9fb2a4" stroke-width="20" stroke-dasharray="4 13" fill="none" opacity="0.7"/>
+    <path d="M0 962 H1920" stroke="#9fb2a4" stroke-width="18" stroke-dasharray="4 14" fill="none" opacity="0.55"/>
+    <path d="M0 1036 H1920" stroke="#9fb2a4" stroke-width="16" stroke-dasharray="4 15" fill="none" opacity="0.4"/>
+  </g>
+
+  <!-- дорога -->
+  <g fill="none" stroke-linecap="round" stroke="#dad2c2" opacity="0.7">
+    <path d="M60 1082 C 300 1000 380 900 470 842 Q 540 794 606 770" stroke-width="42"/>
+    <path d="M1880 1082 C 1700 1010 1620 920 1560 862 Q 1522 822 1470 794" stroke-width="22" opacity="0.8"/>
+  </g>
+
+  <!-- дымка поверх -->
+  <ellipse cx="960" cy="772" rx="1200" ry="26" fill="#f6f6f0" opacity="0.35"/>
+  <ellipse cx="700" cy="884" rx="900" ry="20" fill="#f6f6f0" opacity="0.18"/>
+  <rect width="1920" height="1080" fill="url(#haze)"/>
+
+  <!-- передний план: камыш и трава -->
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#55655b" stroke-width="6" opacity="0.9">
+      <path d="M42 1082 C 74 1030 48 992 66 952"/>
+      <path d="M96 1082 C 118 1034 96 1000 112 962"/>
+      <path d="M150 1082 C 168 1042 152 1010 166 978"/>
+      <path d="M6 1082 C 26 1044 4 1014 18 984"/>
+    </g>
+    <g stroke="#4a5a52" stroke-width="4" opacity="0.8">
+      <path d="M1868 1082 C 1846 1032 1872 996 1856 958"/>
+      <path d="M1912 1082 C 1890 1040 1914 1006 1900 972"/>
+      <path d="M1816 1082 C 1798 1040 1818 1010 1806 982"/>
+      <path d="M1766 1082 C 1750 1048 1766 1022 1758 998"/>
+    </g>
+  </g>
+  <g fill="#5d6b60" opacity="0.85">
+    <ellipse cx="60" cy="968" rx="26" ry="8" transform="rotate(-24 60 968)"/>
+    <ellipse cx="118" cy="978" rx="22" ry="7" transform="rotate(-18 118 978)"/>
+    <ellipse cx="1862" cy="974" rx="24" ry="8" transform="rotate(22 1862 974)"/>
+    <ellipse cx="1808" cy="992" rx="20" ry="7" transform="rotate(16 1808 992)"/>
+  </g>
+
+  <!-- каменный столбик у дороги -->
+  <g fill="#9c9a92">
+    <rect x="606" y="1006" width="20" height="74" rx="6"/>
+    <rect x="602" y="998" width="28" height="12" rx="5" fill="#8b8a83"/>
+  </g>
+</svg>
